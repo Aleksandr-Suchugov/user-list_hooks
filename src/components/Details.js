@@ -31,7 +31,7 @@ export default function Details(props) {
         <progress/>
       </div>}
       {details && <div id={details.id} className="details">
-        <img alt='' src={details.avatar} />
+        <img alt='avatar_image' src={details.avatar} />
         <p className="name">{details.name}</p>
         <p>City: {details.details.city}</p>
         <p>Company: {details.details.company}</p>
